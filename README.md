@@ -61,9 +61,8 @@ Bonded reference: f1 = 83.71 Hz, f2 = 471.27 Hz.
 
 ## Next steps
 
-1. Phone accelerometer hammer test at three tightening torques to compare with f1 and f2.
-2. Finer hex mesh around the contacts to check whether f2 converges.
-3. Nonlinear transient with a loose hole, then a harmonic response with 1 to 2% damping.
+1. Finer hex mesh around the contacts to check whether f2 converges.
+2. Nonlinear transient with a loose hole, then a harmonic response with 1 to 2% damping.
 
 ## Repository layout
 
