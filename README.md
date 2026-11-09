@@ -71,7 +71,7 @@ Bonded reference: f1 = 83.71 Hz, f2 = 471.27 Hz.
 
 | Path | Content |
 |---|---|
-| `cad/` | CAD files (upload here) |
+| `cad/` | CAD files |
 | `data/` | results table, plus the superseded first 6.2 mm run |
 | `figures/` | plots made by `scripts/plot_results.py` |
 | `screenshots/` | Ansys screenshots |
