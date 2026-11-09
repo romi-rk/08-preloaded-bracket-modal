@@ -2,8 +2,6 @@
 
 Joint stiffness study in Ansys Mechanical 2026 R1 (Student). A 140 x 40 x 6 mm aluminium bracket is clamped to a base block with two preloaded M6 bolts and carries a 0.5 kg tip mass. Prestressed modal analysis, ten runs.
 
-Author: Romikumar Kukadiya, M.Sc. Mechatronics and Cyberphysical Systems, TH Deggendorf. November 2026.
-
 ![Frequencies for hole size, shank contact and mesh type](figures/fig_mesh_and_clearance.png)
 
 ## Key findings
