@@ -36,15 +36,14 @@ Drawings: `bracket_drawing.pdf` and `bracket_section_view.pdf`.
 <table>
 <tr>
 <td><img src="../screenshots/setup/01_geometry_assembly.png" width="420"><br><sub>Assembly geometry</sub></td>
-<td><img src="../screenshots/setup/05_bolt_pretension_3000N.png" width="420"><br><sub>Bolt Pretension, 3000 N</sub></td>
+<td><img src="../screenshots/setup/04_bolt_pretension_3000N.png" width="420"><br><sub>Bolt Pretension, 3000 N</sub></td>
 </tr>
 <tr>
-<td><img src="../screenshots/setup/04_frictional_contact_mu_0_2.png" width="420"><br><sub>Frictional contact, mu 0.2</sub></td>
-<td><img src="../screenshots/setup/03_workbench_schematic.png" width="420"><br><sub>Workbench schematic: static result feeding the prestressed modal</sub></td>
+<td><img src="../screenshots/setup/03_frictional_contact_mu_0_2.png" width="420"><br><sub>Frictional contact, mu 0.2</sub></td>
 </tr>
 <tr>
 <td><img src="../screenshots/setup/02_materials.png" width="420"><br><sub>Engineering data</sub></td>
-<td><img src="../screenshots/setup/06_mesh_overview.png" width="420"><br><sub>Mesh overview from the bonded convergence study, 78,537 nodes</sub></td>
+<td><img src="../screenshots/setup/05_mesh_overview.png" width="420"><br><sub>Mesh overview from the bonded convergence study, 78,537 nodes</sub></td>
 </tr>
 </table>
 
