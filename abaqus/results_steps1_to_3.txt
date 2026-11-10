@@ -1,0 +1,20 @@
+Abaqus Learning Edition 2026 results, reduced model (about 800 nodes), units mm tonne N s MPa.
+
+Step 1, rigid clamp, modal: f1 86.14 Hz, f2 515.75 Hz (hand calculation 86.8 Hz).
+
+Step 2, friction contact with clamp pressure, prestressed modal, all six cases R1 to R6:
+f1 79.4 Hz, f2 411.5 Hz, identical for preload 1 to 8 kN and mu 0.1 to 0.3.
+
+Step 3, bonded tie control: f1 85.7 Hz, f2 497.5 Hz.
+
+Step 3, nonlinear shock, 5 ms half sine in z, 2 percent damping at f1:
+S1 F=3000 N mu=0.2 50 g   peak tip U3 4.593 mm, peak joint U3 0.1197 mm, final joint U3 -0.1157 mm
+S2 F=3000 N mu=0.2 200 g  peak tip U3 81.710 mm, peak joint U3 2.0541 mm, final joint U3 -2.0541 mm
+S3 F=3000 N mu=0.2 400 g  peak tip U3 126.000 mm, peak joint U3 6.6622 mm, final joint U3 -6.6621 mm
+S4 F=500 N mu=0.2 50 g    peak tip U3 29.484 mm, peak joint U3 0.7570 mm, final joint U3 -0.7570 mm
+S5 F=500 N mu=0.1 50 g    peak tip U3 36.001 mm, peak joint U3 0.9009 mm, final joint U3 -0.9009 mm
+S6 F=500 N mu=0.3 50 g    peak tip U3 22.903 mm, peak joint U3 0.5927 mm, final joint U3 -0.5927 mm
+
+Step 4, slip onset, same shock model, 5 ms half sine (see data/abaqus/abaqus_shock_results.csv):
+3000 N, mu 0.2: final joint U3 0.0009 mm at 10 g, 0.009 at 20 g, 0.032 at 30 g, 0.068 at 40 g.
+500 N, mu 0.2: final joint U3 0.0005 mm at 2 g, 0.0024 at 4 g, 0.019 at 8 g.
